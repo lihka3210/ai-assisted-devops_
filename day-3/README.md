@@ -44,6 +44,14 @@ A GenAI powered tool that generates optimized Dockerfiles based on programming l
    ```bash
    python3 generate_dockerfile.py
    ```
+4. **python command on ubuntu instance**
+   ```bash
+   sudo apt update -y
+   sudo apt install python3.12-venv
+   sudo apt install -y python3-pip
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
 ## 💡 How It Works
 
